@@ -1,8 +1,16 @@
 
 <?php include("inc/header.php");?>
-<br />
-<br />
 <div class="container">
-	<h3>ADMIN DASHBOARD</h3>
+	<div>
+		<h2 class="display-10 my-5" style="text-align:center";>ADMIN & CO ADMIN LOGIN</h2>
+		<div class="my-4">
+			<div class="row">
+				<div class="col-lg-4">
+					<?php echo anchor("welcome/adminRegister","ADMIN REGISTER",['class'=>'btn btn-primary']); ?>
+				</div>
+				<div class="col-lg-4"><?php echo anchor("welcome/login","ADMIN LOGIN",['class'=>'btn btn-primary']); ?></div>
+			</div>
+		</div>
+	</div>
 </div>
 <?php include("inc/footer.php");?>
