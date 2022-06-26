@@ -3,6 +3,7 @@
 <div class="container">
 	<div>
 		<h2 class="display-10 my-5" style="text-align:center";>ADMIN & CO ADMIN LOGIN</h2>
+		<hr />
 		<div class="my-4">
 			<div class="row">
 				<div class="col-lg-4">
