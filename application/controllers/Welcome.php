@@ -23,6 +23,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('home');
 	}
 	public function adminRegister(){
+		$this->load->model('queries');
+		$roles = $this->queries->getRoles();
+		print_r($roles);
+		exit();
 		$this->load->view('register');
 	}
 
